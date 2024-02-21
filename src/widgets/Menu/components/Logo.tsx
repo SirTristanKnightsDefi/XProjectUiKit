@@ -49,7 +49,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Citadel">
+        <StyledLink as="a" href={href} aria-label="X Project">
           <img
             src="https://assets.coingecko.com/coins/images/31144/standard/X.png"
             alt="X Project Logo"
@@ -62,7 +62,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
           />
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Citadel">
+        <StyledLink to={href} aria-label="X Project">
           <img
             src="https://assets.coingecko.com/coins/images/31144/standard/X.png"
             alt="X Project Logo"
